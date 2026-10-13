@@ -1,0 +1,31 @@
+# ---------- 敏感配置（绝不提交）----------
+.env
+agent/.env
+# 负责人真名映射表：GitHub 上只用代号，真名只留在各人本机
+assignees.local.json
+secret.key
+
+# ---------- 本地数据 ----------
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ---------- 前端自检用的 jsdom（可选）----------
+node_modules/
+package.json
+package-lock.json
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

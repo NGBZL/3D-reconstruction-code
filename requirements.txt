@@ -1,0 +1,2 @@
+# 本仓库代码本身只用到 requests；Agent 的 GitHub Actions 也会装它
+requests>=2.31.0,<3.0.0
